@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Email Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1><span>📧</span> Smart Email Generator</h1>
+
+    <form id="emailForm">
+      <label for="recipient">Recipient:</label>
+      <input type="text" id="recipient" placeholder="e.g., HR Manager" required />
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" placeholder="e.g., Leave Request" required />
+
+      <label for="tone">Tone:</label>
+      <select id="tone">
+        <option>Professional</option>
+        <option>Friendly</option>
+        <option>Apologetic</option>
+      </select>
+
+      <label for="details">Details:</label>
+      <textarea id="details" placeholder="Explain what the email is about..." required></textarea>
+
+      <button type="submit">✨ Generate Email</button>
+    </form>
+
+    <h2>✉️ Your Generated Email</h2>
+    <div id="output" class="email-preview"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
