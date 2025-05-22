@@ -18,7 +18,7 @@ A modern, AI-powered web application that helps you craft professional emails ef
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/smart-email-generator.git
+git clone https://github.com/Moizkh3/smart-email-generator.git
 cd smart-email-generator
 ```
 
