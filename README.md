@@ -86,4 +86,4 @@ If you have any questions or suggestions, feel free to open an issue or reach ou
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Moiz Khatri
